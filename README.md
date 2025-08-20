@@ -210,7 +210,6 @@ about_image_height = "512"
 
 ```toml
 [extra.coffee]
-lang = "en"
 title = "Coffee Blog"
 description = "The coffee is super delicious."
 keyword = "blog coffee drink"
