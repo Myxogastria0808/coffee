@@ -7,25 +7,24 @@
 @use "tag-list";
 
 //* Base Settings *//
+* {
+  color: #ffffff;
+  font-family: "Sawarabi Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.krona-one-regular {
+  font-family: "Krona One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   background-color: #282828;
   overflow-x: clip;
-  * {
-    color: #ffffff;
-  }
-  .krona-one-regular {
-    font-family: "Krona One", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .sawarabi-gothic-regular {
-    font-family: "Sawarabi Gothic", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
   //* Header *//
   .blog-header {
     padding: 30px 0 30px 0;
