@@ -8,6 +8,8 @@ This template can be used **mermaid** and **katex**.
 
 https://zola-coffee-theme.netlify.app/
 
+- theme logo
+
 <div align="center">
   <img src="https://github.com/Myxogastria0808/coffee/blob/main/assets/coffee.webp" width="300px" height="300px" />
 </div>
@@ -21,6 +23,9 @@ Please install zola by referring to the following.
 https://www.getzola.org/documentation/getting-started/installation/
 
 2. Setup coffee theme
+
+> [!TIP]
+> If you want to use [the coffee theme repository](https://github.com/Myxogastria0808/coffee/) as your blog, there is no setup required other than the extra settings in 2-6.
 
 2-1. Create your blog project
 
@@ -273,6 +278,23 @@ tags = ["coffee"]
 
 The best part of my morning is the quiet moment with a steaming mug of coffee.
 It's a simple, potent reminder that a new day has truly begun.
+
+## Greeting
+
+Hello, coffee lovers! ☕
+
+My name is Myxogastria0808, and I like coffee too!
+
+## How I like to drink coffee
+
+My favorite way to drink coffee is to add caramel flavored sugar to black coffee!
+
+## Coffee logo
+
+I create a logo for my blog theme named "coffee".
+
+{{ image(path="/content/coffee/coffee.webp") }}
+
 ```
 
 Please refer to the following for an actual example.
