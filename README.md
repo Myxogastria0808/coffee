@@ -25,7 +25,7 @@ https://www.getzola.org/documentation/getting-started/installation/
 2. Setup coffee theme
 
 > [!TIP]
-> If you want to use the coffee theme repository as a blog, you do not need to do the step `2.` other than making extra settings in the `2-6.` step after cloning the repository.
+> If you want to use the coffee theme repository as a blog, you do not need to do the `2.` step other than making extra settings in the `2-6.` step after cloning the repository.
 
 2-1. Create your blog project
 
