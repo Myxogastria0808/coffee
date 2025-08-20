@@ -147,7 +147,7 @@ about_image_height = "512"
 
 - example
 
-```
+```toml
 # The URL the site will be built for
 base_url = "https://example.com"
 
