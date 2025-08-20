@@ -1,4 +1,4 @@
-# coffee
+# coffee theme
 
 **coffee** is a blog template for zola!
 
@@ -25,7 +25,7 @@ https://www.getzola.org/documentation/getting-started/installation/
 2. Setup coffee theme
 
 > [!TIP]
-> If you want to use [the coffee theme repository](https://github.com/Myxogastria0808/coffee/) as your blog, there is no setup required other than the extra settings in 2-6.
+> If you want to use the coffee theme repository as a blog, you do not need to do the step `2.` other than making extra settings in the `2-6.` step after cloning the repository.
 
 2-1. Create your blog project
 
@@ -251,13 +251,13 @@ in_search_index = true
 
 ```
 
-2-8. Build your blog to apply this theme
+3. Build your blog
 
 ```sh
 zola build
 ```
 
-3. Check your blog
+4. Check your blog
 
 ```sh
 zola serve
