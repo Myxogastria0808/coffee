@@ -22,24 +22,29 @@ title = "coffee theme"
 description = "This blog is made by zola."
 # default value: 'blog'
 keyword = "blog"
-# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/favicon.ico'
-shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/favicon.ico"
+# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico'
+shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico"
 # default value: ''
 twitter_site = ""
 # default value: '@yuki_osada0808'
 twitter_creator = "@yuki_osada0808"
-# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp'
-about_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp"
+# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp'
+about_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
 # default value: 'coffee theme'
 about_image_alt = "coffee theme"
-# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp'
-image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp"
+# default value: '512'
+about_image_width = "512"
+# default value: '512'
+about_image_height = "512"
+# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp'
+meta_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
 # default value: 'coffee theme'
-image_alt = "coffee theme"
+meta_image_alt = "coffee theme"
 # default value: '512'
-image_width = "512"
+meta_image_width = "512"
 # default value: '512'
-image_height = "512"
+meta_image_height = "512"
+
 
 # The theme author info: you!
 [author]
