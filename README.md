@@ -55,10 +55,11 @@ Visit https://www.getzola.org for the full documentation.
 cd ./< your blog project >/themes/
 ```
 
-2-3. Clone coffee theme to theme directory
+2-3. Clone coffee theme to theme directory and remove .git directory of coffee theme repository
 
 ```sh
 git clone https://github.com/Myxogastria0808/coffee.git
+rm -rf coffee/.git
 ```
 
 2-4. Change directory to the root of your blog project
