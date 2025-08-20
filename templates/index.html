@@ -7,11 +7,11 @@
   <div class="light-cable-right">
     <img src="/light-cable.svg" alt="light cable" />
   </div>
-  <div class="krona-one-regular">
-    <h1 class="title">
+  <div>
+    <h1 class="title krona-one-regular">
       {{ config.extra.coffee.title | default(value='coffee theme') | safe }}
     </h1>
-    <h3 class="sub-title">
+    <h3 class="sub-title krona-one-regular">
       {{ config.extra.coffee.description | default(value='This blog is made by
       zola.') | safe }}
     </h3>
@@ -21,18 +21,23 @@
 <!-- About Start -->
 <div class="about">
   <h1>About</h1>
-  <div class="img-item">
+  <div class="icon">
     <img
-      src="{{ config.extra.coffee.about_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp') | safe }}"
+      src="{{ config.extra.coffee.about_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp') | safe }}"
       alt="{{ config.extra.coffee.about_image_alt | default(value='coffee theme') | safe }}"
+      width="{{ config.extra.coffee.about_image_width | default(value='512') | safe }}"
+      height="{{ config.extra.coffee.about_image_height | default(value='512') | safe }}"
     />
   </div>
-  <p>This is a blog about coffee.</p>
+  <div class="content">
+    {{ config.extra.coffee.about | default(value='coffee theme') | safe }}
+  </div>
 </div>
 <!-- About End -->
 <!-- Blog List Start -->
 <section class="blog-list-section">
-  <h1 class="title">List of blog posts</h1>
+  <h1 class="title">Posts</h1>
+  <a href="{{ config.base_url }}/tags/" class="tags-link">Check all tags >></a>
   <ul>
     {%for page in section.pages %}
     <li>

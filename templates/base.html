@@ -16,7 +16,7 @@
     endblock %}
     <link
       rel="shortcut icon"
-      href="{{ config.extra.coffee.shortcut_icon | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/favicon.ico') | safe }}"
+      href="{{ config.extra.coffee.shortcut_icon | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico') | safe }}"
     />
     <meta name="theme-color" content="rgb(15.29, 15.29, 15.29)" />
     <!-- meta settings end -->
@@ -48,11 +48,11 @@
     />
     <meta
       name="twitter:image"
-      content="{{ config.extra.coffee.image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp') | safe }}"
+      content="{{ config.extra.coffee.meta_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp') | safe }}"
     />
     <meta
       name="twitter:image:alt"
-      content="{{ config.extra.coffee.image_alt | default(value='coffee theme') | safe }}"
+      content="{{ config.extra.coffee.meta_image_alt | default(value='coffee theme') | safe }}"
     />
     <!-- Twitter card settings end -->
     <!-- OG settings start -->
@@ -66,15 +66,15 @@
     />
     <meta
       property="og:image"
-      content="{{ config.extra.coffee.image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/static/coffee.webp') | safe }}"
+      content="{{ config.extra.coffee.meta_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp') | safe }}"
     />
     <meta
       property="og:image:width"
-      content="{{ config.extra.coffee.image_width | default(value='512') | safe }}"
+      content="{{ config.extra.coffee.meta_image_width | default(value='512') | safe }}"
     />
     <meta
       property="og:image:height"
-      content="{{ config.extra.coffee.image_height | default(value='512') | safe }}"
+      content="{{ config.extra.coffee.meta_image_height | default(value='512') | safe }}"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ config.base_url }}" />
@@ -126,16 +126,10 @@
     <!-- footer start -->
     <footer>
       <div class="credit">
-        <a
-          class="pc-credit sawarabi-gothic-regular"
-          href="https://yukiosada.work"
-        >
+        <a class="pc-credit" href="https://yukiosada.work">
           &copy; <span id="pc-year"></span> Zola coffee theme
         </a>
-        <a
-          class="mobile-credit sawarabi-gothic-regular"
-          href="https://yukiosada.work"
-        >
+        <a class="mobile-credit" href="https://yukiosada.work">
           <p>&copy; <span id="mobile-year"></span> Zola coffee theme</p>
         </a>
       </div>
