@@ -249,6 +249,18 @@ zola build
 zola serve
 ```
 
+### Setup Example
+
+The following sample have been set up.
+
+- repository
+
+https://github.com/Myxogastria0808/coffee-sample.git
+
+- demo site
+
+https://zola-coffee-theme-sample.netlify.app/
+
 ## Post Example
 
 You can see the post example below.
