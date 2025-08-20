@@ -17,7 +17,7 @@ https://zola-coffee-theme.netlify.app/
 - screenshot
 
 <div align="center">
-  <img src="https://github.com/Myxogastria0808/coffee/blob/main/assets/coffee.webp" width="1920px" height="935px" />
+  <img src="https://github.com/Myxogastria0808/coffee/blob/main/screenshot.png" width="1920px" height="935px" />
 </div>
 
 ## Setup Environment
