@@ -30,7 +30,12 @@
     />
   </div>
   <div class="content">
-    {{ config.extra.coffee.about | default(value='coffee theme') | safe }}
+    {{ config.extra.coffee.about | default(value='Hello, my name is
+    <strong>Yuki Osada (Myxogastria0808).</strong><br />
+    I created a Zola theme named <strong>"coffee"</strong>. This template can be
+    used <strong>mermaid</strong> and <strong>katex</strong>.
+    <h4>Have a nice day!</h4>
+    ') | safe }}
   </div>
 </div>
 <!-- About End -->

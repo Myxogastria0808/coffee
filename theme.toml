@@ -45,7 +45,6 @@ meta_image_width = "512"
 # default value: '512'
 meta_image_height = "512"
 
-
 # The theme author info: you!
 [author]
 name = "Yuki Osada (Myxogastria0808)"
