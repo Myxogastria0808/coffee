@@ -91,13 +91,7 @@ highlight_code = true
 # Put all your custom variables here
 ```
 
-2-6. Build your blog to apply this theme
-
-```sh
-zola build
-```
-
-2-7. Add extra settings to `config.toml` of your blog project
+2-6. Add extra settings to `config.toml` of your blog project
 
 This theme provides the following additional settings.
 
@@ -157,12 +151,12 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "coffee"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-
-theme = "coffee"
 
 [extra.coffee]
 lang = "en"
@@ -175,6 +169,12 @@ Hello, my name is <strong>Myxogastria0808.</strong><br/>
 This blog is made by Zola. This is a sample blog of coffee theme.
 """
 
+```
+
+2-7. Build your blog to apply this theme
+
+```sh
+zola build
 ```
 
 3. Check your blog
