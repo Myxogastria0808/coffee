@@ -8,7 +8,7 @@ This template can be used **mermaid** and **katex**.
 
 https://zola-coffee-theme.netlify.app/
 
-- theme logo
+- [theme logo](https://github.com/Myxogastria0808/coffee/blob/main/logo/README.md)
 
 <div align="center">
   <img src="https://github.com/Myxogastria0808/coffee/blob/main/assets/coffee.webp" width="300px" height="300px" />
