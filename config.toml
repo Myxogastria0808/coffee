@@ -102,7 +102,7 @@ meta_image_height = "512"
 
 # default value is below
 about = """
-Hello, my name is <strong>Yuki Osada (Myxogastria0808).</strong><br/>
+Hello, my name is <strong>Myxogastria0808.</strong><br/>
 I created a Zola theme named <strong>"coffee"</strong>.
 This template can be used <strong>mermaid</strong> and <strong>katex</strong>.
 <h4>Have a nice day!</h4>
