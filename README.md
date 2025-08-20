@@ -62,33 +62,90 @@ git clone https://github.com/Myxogastria0808/coffee.git
 cd ..
 ```
 
-2-5. Add theme setting to `config.toml` of your blog project
+2-5. Replace settings to `config.toml` of your blog project
+
+The following is the content of the replacement config.
 
 ```toml
 theme = "coffee"
-```
 
-- example
-
-```toml
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://zola-coffee-theme.netlify.app"
+
+# The site title and description; used in feeds by default.
+title = "coffee"
+description = "This is a ultra coins website and blog site."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+# When set to "true", the generated HTML files are minified.
+minify_html = true
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "coffee"
+# RSS/Atom feeds
+generate_feeds = true
+# The filenames to use for the feeds. Used as the template filenames, too.
+# Defaults to ["atom.xml"], which has a built-in template that renders an Atom 1.0 feed.
+# There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
+feed_filenames = ["rss.xml"]
+
+# The taxonomies to be rendered for the site and their configuration of the default languages
+# Example:
+#     taxonomies = [
+#       {name = "tags", feed = true}, # each tag will have its own feed
+#       {name = "tags"}, # you can have taxonomies with the same name in multiple languages
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no feed or pagination
+#     ]
+#
+taxonomies = [
+    {name = "tags", feed = true},
+]
 
 [markdown]
 # Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
-[extra]
-# Put all your custom variables here
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
+# Whether external links are to be opened in a new tab
+# If this is true, a `rel="noopener"` will always automatically be added for security reasons
+external_links_target_blank = true
+
+# Whether to set rel="noreferrer" for all external links
+external_links_no_referrer = true
+
+# Whether smart punctuation is enabled (changing quotes, dashes, dots in their typographic form)
+# For example, `...` into `…`, `"quote"` into `“curly”` etc
+smart_punctuation = true
+
+[search]
+# Whether to include the title of the page/section in the index
+include_title = true
+# Whether to include the description of the page/section in the index
+include_description = true
+# Whether to include the RFC3339 datetime of the page in the search index
+include_date = true
+# Whether to include the path of the page/section in the index (the permalink is always included)
+include_path = true
+# Whether to include the rendered content of the page/section in the index
+include_content = true
+
+[slugify]
+# Various slugification strategies, see below for details
+# Defaults to everything being a slug
+paths = "off"
+taxonomies = "off"
+# Whether to remove date prefixes for page path slugs.
+# For example, content/posts/2016-10-08_a-post-with-dates.md => posts/a-post-with-dates
+# When true, content/posts/2016-10-08_a-post-with-dates.md => posts/2016-10-08-a-post-with-dates
+paths_keep_dates = true
 ```
 
 2-6. Add extra settings to `config.toml` of your blog project
@@ -96,6 +153,8 @@ highlight_code = true
 This theme provides the following additional settings.
 
 All settings have default values, so you only need to add the settings you want to change.
+
+- `config.toml`
 
 ```toml
 [extra.coffee] #<- CAUTION: You have to be [extra.coffee], not [extra].
@@ -139,7 +198,7 @@ about_image_width = "512"
 about_image_height = "512"
 ```
 
-- example
+- example (`config.toml`)
 
 ```toml
 # The URL the site will be built for
@@ -155,7 +214,7 @@ theme = "coffee"
 
 [markdown]
 # Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
 [extra.coffee]
@@ -171,7 +230,23 @@ This blog is made by Zola. This is a sample blog of coffee theme.
 
 ```
 
-2-7. Build your blog to apply this theme
+2-7. Replace settings to `content/_index.md` of your blog project
+
+The following is the content of `_index.md`, which will be newly added in the content directory.
+
+- `_index.md`
+
+```md
++++
+sort_by = "date"
+template = "index.html"
+page_template = "blog-template.html"
+in_search_index = true
++++
+
+```
+
+2-8. Build your blog to apply this theme
 
 ```sh
 zola build
