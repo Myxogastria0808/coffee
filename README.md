@@ -38,7 +38,7 @@ Please select as follows
 Welcome to Zola!
 Please answer a few questions to get started quickly.
 Any choices made can be changed by modifying the `config.toml` file later.
-> What is the URL of your site? (https://example.com): <your blog URL>
+> What is the URL of your site? (https://example.com): < "Don't enter anything." >
 > Do you want to enable Sass compilation? [Y/n]: y
 > Do you want to enable syntax highlighting? [y/N]: y
 > Do you want to build a search index of the content? [y/N]: y
@@ -71,11 +71,14 @@ cd ..
 
 The following is the content of the replacement config.
 
+Please change `base_url` to your blog's URL when deploying your blog.
+During development, I recommend leaving base_url as is.
+
 ```toml
 theme = "coffee"
 
 # The URL the site will be built for
-base_url = "https://zola-coffee-theme.netlify.app"
+base_url = "/"
 
 # The site title and description; used in feeds by default.
 title = "coffee"
@@ -203,25 +206,9 @@ about_image_width = "512"
 about_image_height = "512"
 ```
 
-- example (`config.toml`)
+- example (part of `config.toml`)
 
 ```toml
-# The URL the site will be built for
-base_url = "https://example.com"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-
-theme = "coffee"
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customized by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-
 [extra.coffee]
 lang = "en"
 title = "Coffee Blog"
@@ -232,7 +219,6 @@ about = """
 Hello, my name is <strong>Myxogastria0808.</strong><br/>
 This blog is made by Zola. This is a sample blog of coffee theme.
 """
-
 ```
 
 2-7. Replace settings to `content/_index.md` of your blog project
@@ -392,7 +378,7 @@ graph TD;
 {% end %}
 ```
 
-![marmaid](https://github.com/Myxogastria0808/coffee/blob/main/assets/marmaid.png)
+![mermaid](https://github.com/Myxogastria0808/coffee/blob/main/assets/marmaid.png)
 
 ### note
 
