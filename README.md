@@ -169,22 +169,11 @@ lang = "en"
 title = "Coffee Blog"
 description = "The coffee is super delicious."
 keyword = "blog coffee drink"
-shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico"
-twitter_site = ""
-twitter_creator = "@yuki_osada0808"
-meta_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
-meta_image_alt = "coffee blog"
-meta_image_width = "512"
-meta_image_height = "512"
 
 about = """
 Hello, my name is <strong>Myxogastria0808.</strong><br/>
 This blog is made by Zola. This is a sample blog of coffee theme.
 """
-about_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
-about_image_alt = "coffee blog"
-about_image_width = "512"
-about_image_height = "512"
 
 ```
 
