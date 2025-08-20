@@ -29,14 +29,6 @@ twitter_site = ""
 # default value: '@yuki_osada0808'
 twitter_creator = "@yuki_osada0808"
 # default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp'
-about_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
-# default value: 'coffee theme'
-about_image_alt = "coffee theme"
-# default value: '512'
-about_image_width = "512"
-# default value: '512'
-about_image_height = "512"
-# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp'
 meta_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
 # default value: 'coffee theme'
 meta_image_alt = "coffee theme"
@@ -45,7 +37,23 @@ meta_image_width = "512"
 # default value: '512'
 meta_image_height = "512"
 
+# default value is below
+about = """
+Hello, my name is <strong>Myxogastria0808.</strong><br/>
+I created a Zola theme named <strong>"coffee"</strong>.
+This template can be used <strong>mermaid</strong> and <strong>katex</strong>.
+<h4>Have a nice day!</h4>
+"""
+# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp'
+about_image = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp"
+# default value: 'coffee theme'
+about_image_alt = "coffee theme"
+# default value: '512'
+about_image_width = "512"
+# default value: '512'
+about_image_height = "512"
+
 # The theme author info: you!
 [author]
-name = "Yuki Osada (Myxogastria0808)"
+name = "Myxogastria0808"
 homepage = "https://yukiosada.work"
