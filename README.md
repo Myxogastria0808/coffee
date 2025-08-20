@@ -14,6 +14,12 @@ https://zola-coffee-theme.netlify.app/
   <img src="https://github.com/Myxogastria0808/coffee/blob/main/assets/coffee.webp" width="300px" height="300px" />
 </div>
 
+- screenshot
+
+<div align="center">
+  <img src="https://github.com/Myxogastria0808/coffee/blob/main/assets/coffee.webp" width="1920px" height="935px" />
+</div>
+
 ## Setup Environment
 
 1. Install zola
