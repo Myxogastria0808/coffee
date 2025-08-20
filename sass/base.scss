@@ -1,0 +1,71 @@
+@use "about";
+@use "blog-list";
+@use "blog";
+@use "error";
+@use "first-view";
+@use "shortcodes";
+@use "tag-list";
+
+//* Base Settings *//
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #282828;
+  overflow-x: clip;
+  * {
+    color: #ffffff;
+  }
+  .krona-one-regular {
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sawarabi-gothic-regular {
+    font-family: "Sawarabi Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  //* Header *//
+  .blog-header {
+    padding: 30px 0 30px 0;
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    .blog-title {
+      padding: 0;
+      margin: 0 0 0 30px;
+      font-size: 1em;
+      text-align: left;
+      text-decoration: none;
+    }
+  }
+  //* Footer *//
+  footer {
+    margin: auto 0 0 0;
+    padding: 0;
+    background-color: #141414;
+    height: 150px;
+    .credit {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* PC */
+    @media screen and (max-width: 439px) {
+      .pc-credit {
+        display: none;
+      }
+    }
+    /* mobile */
+    @media screen and (min-width: 440px) {
+      .mobile-credit {
+        display: none;
+      }
+    }
+  }
+}

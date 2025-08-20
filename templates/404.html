@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block content %}
+<section class="error-section">
+  <div>
+    <h1 class="status-code krona-one-regular">404</h1>
+    <p class="status-message krona-one-regular">Page Not Found</p>
+    <a href="{{ config.base_url }}/">
+      <p class="link krona-one-regular">Back to Blog Posts</p>
+    </a>
+  </div>
+</section>
+{% endblock content %}
