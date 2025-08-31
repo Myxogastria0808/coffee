@@ -15,49 +15,18 @@
     href="{{ get_url(path="rss.xml", trailing_slash=false) | safe }}">{%
     endblock %}
     <link
-      rel="shortcut icon"
+      rel="icon"
       href="{{ config.extra.coffee.shortcut_icon | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico') | safe }}"
     />
     <meta name="theme-color" content="rgb(15.29, 15.29, 15.29)" />
     <!-- meta settings end -->
-    <!-- Google fonts start -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Sawarabi+Gothic&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Google fonts end -->
-    <!-- Twitter card settings start -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:site"
-      content="{{ config.extra.coffee.twitter_site | default(value='') | safe }}"
-    />
-    <meta
-      name="twitter:creator"
-      content="{{ config.extra.coffee.twitter_creator | default(value='@yuki_osada0808') | safe }}"
-    />
-    <meta
-      name="twitter:title"
-      content="{{ config.extra.coffee.title | default(value='coffee theme') | safe }}"
-    />
-    <meta
-      name="twitter:description"
-      content="{{ config.extra.coffee.description | default(value='This blog is made by zola.') | safe }}"
-    />
-    <meta
-      name="twitter:image"
-      content="{{ config.extra.coffee.meta_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp') | safe }}"
-    />
-    <meta
-      name="twitter:image:alt"
-      content="{{ config.extra.coffee.meta_image_alt | default(value='coffee theme') | safe }}"
-    />
-    <!-- Twitter card settings end -->
     <!-- OG settings start -->
     <meta
       property="og:site_name"
+      content="{{ config.extra.coffee.title | default(value='coffee theme') | safe }}"
+    />
+    <meta
+      property="og:title"
       content="{{ config.extra.coffee.title | default(value='coffee theme') | safe }}"
     />
     <meta
@@ -76,9 +45,32 @@
       property="og:image:height"
       content="{{ config.extra.coffee.meta_image_height | default(value='512') | safe }}"
     />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ config.base_url }}" />
     <!-- OG settings end -->
+    <!-- Twitter card settings start -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="{{ config.extra.coffee.twitter_site | default(value='') | safe }}"
+    />
+    <meta
+      name="twitter:creator"
+      content="{{ config.extra.coffee.twitter_creator | default(value='@yuki_osada0808') | safe }}"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="{{ config.extra.coffee.meta_image_alt | default(value='coffee theme') | safe }}"
+    />
+    <!-- Twitter card settings end -->
+    <!-- Google fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Sawarabi+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google fonts end -->
     <!-- CSS start -->
     <link rel="stylesheet" href="{{ get_url(path="base.css",
     trailing_slash=false) | safe }}">
