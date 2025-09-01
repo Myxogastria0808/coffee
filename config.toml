@@ -85,8 +85,8 @@ title = "coffee theme"
 description = "This blog is made by zola."
 # default value: 'blog'
 keyword = "blog"
-# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico'
-shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.ico"
+# default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg'
+shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg"
 # default value: ''
 twitter_site = ""
 # default value: '@yuki_osada0808'
