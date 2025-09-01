@@ -182,6 +182,7 @@ description = "This blog is made by zola."
 # default value: 'blog'
 keyword = "blog"
 # default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg'
+# A shortcut icon has to be a SVG image.
 shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg"
 # default value: ''
 twitter_site = ""
@@ -258,6 +259,9 @@ zola serve
 ### Setup Example
 
 The following sample have been set up.
+
+> [!NOTE]
+> This repository includes the coffee theme repository as a submodule.
 
 - repository
 
