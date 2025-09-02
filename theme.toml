@@ -24,7 +24,7 @@ description = "This blog is made by zola."
 keyword = "blog"
 # default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg'
 # A shortcut icon has to be a SVG image.
-shortcut_icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg"
+icon = "https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg"
 # default value: ''
 twitter_site = ""
 # default value: '@yuki_osada0808'
