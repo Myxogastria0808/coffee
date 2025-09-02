@@ -400,7 +400,7 @@ graph TD;
 {% end %}
 ```
 
-![mermaid](https://github.com/Myxogastria0808/coffee/blob/main/assets/marmaid.png)
+![mermaid](https://github.com/Myxogastria0808/coffee/blob/main/assets/mermaid.png)
 
 ### note
 
