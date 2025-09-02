@@ -354,7 +354,7 @@ https://zola-coffee-theme.netlify.app/sample/
 #### Example applying all of `width`, `height`, and `caption`
 
 ```
-{{ image(path="/content/sample/image.jpg", width=1000, height=200, caption="captionの例") }}
+{{ image(path="/content/sample/image.jpg", width=1000, height=200, caption="caption") }}
 ```
 
 ![image](https://github.com/Myxogastria0808/coffee/blob/main/assets/image.png)

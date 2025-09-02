@@ -111,7 +111,7 @@ graph TD;
 
 image with caption
 
-{{ image(path="/content/sample/image.jpg", width=1000, height=200, caption="captionの例") }}
+{{ image(path="/content/sample/image.jpg", width=1000, height=200, caption="caption") }}
 
 custom image
 
