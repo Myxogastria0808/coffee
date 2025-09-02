@@ -1,5 +1,5 @@
 name = "coffee"
-description = ""
+description = "A simple theme for Zola inspired by coffee."
 # An optional tags to allow quick search
 tags = ["dark", "simple", "mermaid", "katex"]
 license = "MIT"
