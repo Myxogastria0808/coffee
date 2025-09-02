@@ -89,7 +89,7 @@ base_url = "/"
 
 # The site title and description; used in feeds by default.
 title = "coffee"
-description = "This is a ultra coins website and blog site."
+description = "A simple theme for Zola inspired by coffee."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
