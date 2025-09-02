@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ config.extra.coffee.lang | default(value='en') | safe }}">
+<html lang="{{ config.extra.coffee.lang | safe }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       property="description"
-      content="{{ config.extra.coffee.description | default(value='This blog is made by zola.') | safe }}"
+      content="{{ config.extra.coffee.description | safe }}"
     />
-    <meta
-      name="keyword"
-      content="{{ config.extra.coffee.keyword | default(value='blog') | safe }}"
-    />
+    <meta name="keyword" content="{{ config.extra.coffee.keyword | safe }}" />
     {% block rss %}<link rel="alternate" type="application/rss+xml" title="RSS"
     href="{{ get_url(path="rss.xml", trailing_slash=false) | safe }}">{%
     endblock %}
     <link
       rel="icon"
-      href="{{ config.extra.coffee.shortcut_icon | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg') | safe }}"
+      href="{{ config.extra.coffee.shortcut_icon | safe }}"
       type="image/svg+xml"
     />
     <meta name="theme-color" content="#49484e" />
@@ -24,27 +21,27 @@
     <!-- OG settings start -->
     <meta
       property="og:site_name"
-      content="{{ config.extra.coffee.title | default(value='coffee theme') | safe }}"
+      content="{{ config.extra.coffee.title | safe }}"
     />
     <meta
       property="og:title"
-      content="{{ config.extra.coffee.title | default(value='coffee theme') | safe }}"
+      content="{{ config.extra.coffee.title | safe }}"
     />
     <meta
       property="og:description"
-      content="{{ config.extra.coffee.description | default(value='This blog is made by zola.') | safe }}"
+      content="{{ config.extra.coffee.description | safe }}"
     />
     <meta
       property="og:image"
-      content="{{ config.extra.coffee.meta_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp') | safe }}"
+      content="{{ config.extra.coffee.meta_image | safe }}"
     />
     <meta
       property="og:image:width"
-      content="{{ config.extra.coffee.meta_image_width | default(value='512') | safe }}"
+      content="{{ config.extra.coffee.meta_image_width | safe }}"
     />
     <meta
       property="og:image:height"
-      content="{{ config.extra.coffee.meta_image_height | default(value='512') | safe }}"
+      content="{{ config.extra.coffee.meta_image_height | safe }}"
     />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ config.base_url }}" />
@@ -53,15 +50,15 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:site"
-      content="{{ config.extra.coffee.twitter_site | default(value='') | safe }}"
+      content="{{ config.extra.coffee.twitter_site | safe }}"
     />
     <meta
       name="twitter:creator"
-      content="{{ config.extra.coffee.twitter_creator | default(value='@yuki_osada0808') | safe }}"
+      content="{{ config.extra.coffee.twitter_creator | safe }}"
     />
     <meta
       name="twitter:image:alt"
-      content="{{ config.extra.coffee.meta_image_alt | default(value='coffee theme') | safe }}"
+      content="{{ config.extra.coffee.meta_image_alt | safe }}"
     />
     <!-- Twitter card settings end -->
     <!-- Google fonts start -->
@@ -100,16 +97,13 @@
       onload="renderMathInElement(document.body);"
     ></script>
     <!-- katex end -->
-    <title>
-      {{ config.extra.coffee.title | default(value='coffee theme') | safe}}
-    </title>
+    <title>{{ config.extra.coffee.title | safe}}</title>
   </head>
   <body>
     <!-- header start -->
     <header class="blog-header">
       <a href="{{ config.base_url }}/" class="krona-one-regular blog-title"
-        >{{ config.extra.coffee.title | default(value='coffee theme') |
-        safe}}</a
+        >{{ config.extra.coffee.title | safe}}</a
       >
     </header>
     <!-- header end -->
@@ -120,7 +114,7 @@
     <footer>
       <div class="credit">
         <a href="https://yukiosada.work">
-          &copy; <span id="year"></span> Zola coffee theme
+          &copy;&ensp;<span id="year"></span>&ensp;Zola coffee theme
         </a>
       </div>
     </footer>

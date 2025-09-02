@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block content %}
-<!-- First View Start -->
+<!-- first view start -->
 <div class="first-view">
   <div class="light-cable-left">
     <img src="/light-cable.svg" alt="light cable" />
@@ -9,37 +9,29 @@
   </div>
   <div>
     <h1 class="title krona-one-regular">
-      {{ config.extra.coffee.title | default(value='coffee theme') | safe }}
+      {{ config.extra.coffee.title | safe }}
     </h1>
     <h3 class="sub-title krona-one-regular">
-      {{ config.extra.coffee.description | default(value='This blog is made by
-      zola.') | safe }}
+      {{ config.extra.coffee.description | safe }}
     </h3>
   </div>
 </div>
-<!-- First View End -->
+<!-- first view end -->
 <!-- About Start -->
 <div class="about">
   <h1>About</h1>
   <div class="icon">
     <img
-      src="{{ config.extra.coffee.about_image | default(value='https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/coffee.webp') | safe }}"
-      alt="{{ config.extra.coffee.about_image_alt | default(value='coffee theme') | safe }}"
-      width="{{ config.extra.coffee.about_image_width | default(value='512') | safe }}"
-      height="{{ config.extra.coffee.about_image_height | default(value='512') | safe }}"
+      src="{{ config.extra.coffee.about_image | safe }}"
+      alt="{{ config.extra.coffee.about_image_alt | safe }}"
+      width="{{ config.extra.coffee.about_image_width | safe }}"
+      height="{{ config.extra.coffee.about_image_height | safe }}"
     />
   </div>
-  <div class="content">
-    {{ config.extra.coffee.about | default(value='Hello, my name is
-    <strong>Myxogastria0808.</strong><br />
-    I created a Zola theme named <strong>"coffee"</strong>. This template can be
-    used <strong>mermaid</strong> and <strong>katex</strong>.
-    <h4>Have a nice day!</h4>
-    ') | safe }}
-  </div>
+  <div class="content">{{ config.extra.coffee.about | safe }}</div>
 </div>
-<!-- About End -->
-<!-- Blog List Start -->
+<!-- about end -->
+<!-- blog list start -->
 <section class="blog-list-section">
   <h1 class="title">Posts</h1>
   <a href="{{ config.base_url }}/tags/" class="tags-link">Check all tags >></a>
@@ -69,5 +61,5 @@
     {% endfor %}
   </ul>
 </section>
-<!-- Blog List End -->
+<!-- blog list end -->
 {% endblock content %}
