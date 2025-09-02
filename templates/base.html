@@ -120,7 +120,7 @@
     <footer>
       <div class="credit">
         <a href="https://yukiosada.work">
-          &copy; <span id="pc-year"></span> Zola coffee theme
+          &copy; <span id="year"></span> Zola coffee theme
         </a>
       </div>
     </footer>
@@ -128,7 +128,9 @@
     <script type="module">
       import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
       mermaid.initialize({ startOnLoad: true, theme: "dark" });
-      document.getElementById("year").textContent = new Date().getFullYear().toString();
+      document.getElementById("year").textContent = new Date()
+        .getFullYear()
+        .toString();
     </script>
   </body>
 </html>
