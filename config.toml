@@ -3,7 +3,7 @@ base_url = "https://zola-coffee-theme.netlify.app"
 
 # The site title and description; used in feeds by default.
 title = "coffee"
-description = "This is a ultra coins website and blog site."
+description = "This is a coffee theme."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
