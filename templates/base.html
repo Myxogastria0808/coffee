@@ -119,11 +119,8 @@
     <!-- footer start -->
     <footer>
       <div class="credit">
-        <a class="pc-credit" href="https://yukiosada.work">
+        <a href="https://yukiosada.work">
           &copy; <span id="pc-year"></span> Zola coffee theme
-        </a>
-        <a class="mobile-credit" href="https://yukiosada.work">
-          <p>&copy; <span id="mobile-year"></span> Zola coffee theme</p>
         </a>
       </div>
     </footer>
@@ -131,9 +128,7 @@
     <script type="module">
       import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
       mermaid.initialize({ startOnLoad: true, theme: "dark" });
-      const year = new Date().getFullYear().toString();
-      document.getElementById("pc-year").textContent = year;
-      document.getElementById("mobile-year").textContent = year;
+      document.getElementById("year").textContent = new Date().getFullYear().toString();
     </script>
   </body>
 </html>
