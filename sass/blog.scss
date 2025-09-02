@@ -7,7 +7,7 @@
     display: flex;
     width: 100%;
     max-width: 1160px;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 130px auto;
     .toc-box {
       margin: 150px 20px 0 50px;
       padding: 10px 0 10px 0;
@@ -48,7 +48,7 @@
     @media screen and (min-width: 1011px) {
       .blog-container {
         max-width: 760px;
-        margin: 0 0 130px 20px;
+        margin: 0 0 0 20px;
       }
     }
   }
