@@ -1,8 +1,8 @@
 # coffee theme
 
-**coffee** is a blog template for zola!
+**coffee** is a blog theme for zola!
 
-This template can be used **mermaid** and **katex**.
+This theme can be used **mermaid** and **katex**.
 
 - demo site
 
@@ -11,7 +11,7 @@ https://zola-coffee-theme.netlify.app/
 - [theme logo](https://github.com/Myxogastria0808/coffee/blob/main/logo/README.md)
 
 <div align="center">
-  <img src="https://github.com/Myxogastria0808/coffee/blob/main/assets/coffee.webp" width="300px" height="300px" />
+  <img src="https://github.com/Myxogastria0808/coffee/blob/main/logo/coffee.svg" width="300px" height="300px" />
 </div>
 
 - screenshot
