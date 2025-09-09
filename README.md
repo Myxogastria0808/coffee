@@ -175,10 +175,6 @@ All settings have default values, so you only need to add the settings you want 
 [extra.coffee] #<- CAUTION: You have to be [extra.coffee], not [extra].
 # default value: 'en'
 lang = "en"
-# default value: 'coffee theme'
-title = "coffee theme"
-# default value: 'This blog is made by zola.'
-description = "This blog is made by zola."
 # default value: 'blog'
 keyword = "blog"
 # default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg'
@@ -218,8 +214,6 @@ about_image_height = "512"
 
 ```toml
 [extra.coffee]
-title = "Coffee Blog"
-description = "The coffee is super delicious."
 keyword = "blog coffee drink"
 
 about = """

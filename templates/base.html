@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      property="description"
-      content="{{ config.extra.coffee.description | safe }}"
-    />
+    <meta property="description" content="{{ config.description | safe }}" />
     <meta name="keyword" content="{{ config.extra.coffee.keyword | safe }}" />
     {% block rss %}<link rel="alternate" type="application/rss+xml" title="RSS"
     href="{{ get_url(path="rss.xml", trailing_slash=false) | safe }}">{%
@@ -19,17 +16,10 @@
     <meta name="theme-color" content="#49484e" />
     <!-- meta settings end -->
     <!-- OG settings start -->
-    <meta
-      property="og:site_name"
-      content="{{ config.extra.coffee.title | safe }}"
-    />
+    <meta property="og:site_name" content="{{ config.title | safe }}" />
     <meta
       property="og:title"
-      content="{{ config.extra.coffee.title | safe }}"
-    />
-    <meta
-      property="og:description"
-      content="{{ config.extra.coffee.description | safe }}"
+      content="{% if page %}{{ page.title }} - {{ config.title }}{% else %}{{ config.title }}{% endif %}"
     />
     <meta
       property="og:image"
@@ -97,13 +87,16 @@
       onload="renderMathInElement(document.body);"
     ></script>
     <!-- katex end -->
-    <title>{{ config.extra.coffee.title | safe}}</title>
+    <title>
+      {% if page %}{{ page.title }} - {{ config.title }}{% else %}{{
+      config.title }}{% endif %}
+    </title>
   </head>
   <body>
     <!-- header start -->
     <header class="blog-header">
       <a href="{{ config.base_url }}/" class="krona-one-regular blog-title"
-        >{{ config.extra.coffee.title | safe}}</a
+        >{{ config.title | safe}}</a
       >
     </header>
     <!-- header end -->

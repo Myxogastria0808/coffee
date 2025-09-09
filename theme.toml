@@ -16,10 +16,6 @@ demo = "https://zola-coffee-theme.netlify.app/"
 [extra.coffee]
 # default value: 'en'
 lang = "en"
-# default value: 'coffee theme'
-title = "coffee theme"
-# default value: 'This blog is made by zola.'
-description = "This blog is made by zola."
 # default value: 'blog'
 keyword = "blog"
 # default value: 'https://raw.githubusercontent.com/Myxogastria0808/coffee/heads/main/static/favicon.svg'
