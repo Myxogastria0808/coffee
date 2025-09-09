@@ -22,6 +22,10 @@
       content="{% if page %}{{ page.title }} - {{ config.title }}{% else %}{{ config.title }}{% endif %}"
     />
     <meta
+      property="og:description"
+      content="{% if page %}{{ page.date | safe }}{% else %}{{ config.description | safe }}{% endif %}"
+    />
+    <meta
       property="og:image"
       content="{{ config.extra.coffee.meta_image | safe }}"
     />
