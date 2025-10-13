@@ -325,7 +325,7 @@ fn main() {
 ```
 ````
 
-![codeblock](https://github.com/Myxogastria0808/coffee/blob/main/assets/codeblock.png)
+![codeblock](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/codeblock.png)
 
 ### Image
 
@@ -351,7 +351,7 @@ https://zola-coffee-theme.netlify.app/sample/
 {{ image(path="/content/sample/image.jpg", width=1000, height=200, caption="caption") }}
 ```
 
-![image](https://github.com/Myxogastria0808/coffee/blob/main/assets/image.png)
+![image](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/image.png)
 
 > [!NOTE]
 > Images are automatically converted to webp, so you don't need to worry about image size.
@@ -372,7 +372,7 @@ $$
 $$
 ```
 
-![katex](https://github.com/Myxogastria0808/coffee/blob/main/assets/katex.png)
+![katex](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/katex.png)
 
 ### mermaid
 
@@ -394,7 +394,7 @@ graph TD;
 {% end %}
 ```
 
-![mermaid](https://github.com/Myxogastria0808/coffee/blob/main/assets/mermaid.png)
+![mermaid](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/mermaid.png)
 
 ### note
 
@@ -412,7 +412,7 @@ This is a note.
 {% end %}
 ```
 
-![note](https://github.com/Myxogastria0808/coffee/blob/main/assets/note.png)
+![note](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/note.png)
 
 ### tip
 
@@ -430,7 +430,7 @@ This is a tip.
 {% end %}
 ```
 
-![tip](https://github.com/Myxogastria0808/coffee/blob/main/assets/tip.png)
+![tip](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/tip.png)
 
 ### important
 
@@ -448,7 +448,7 @@ This is a important.
 {% end %}
 ```
 
-![important](https://github.com/Myxogastria0808/coffee/blob/main/assets/important.png)
+![important](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/important.png)
 
 ### warning
 
@@ -466,7 +466,7 @@ This is a warning.
 {% end %}
 ```
 
-![warning](https://github.com/Myxogastria0808/coffee/blob/main/assets/warning.png)
+![warning](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/warning.png)
 
 ### caution
 
@@ -484,7 +484,7 @@ This is a caution.
 {% end %}
 ```
 
-![caution](https://github.com/Myxogastria0808/coffee/blob/main/assets/caution.png)
+![caution](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/caution.png)
 
 ## Structure of this template
 
