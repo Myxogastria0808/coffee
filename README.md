@@ -26,7 +26,7 @@ https://zola-coffee-theme.netlify.app/
 
 Please install zola by referring to the following.
 
-https://www.getzola.org/documentation/getting-started/installation/
+[https://www.getzola.org/documentation/getting-started/installation/](https://www.getzola.org/documentation/getting-started/installation/)
 
 2. Setup coffee theme
 
@@ -259,11 +259,11 @@ The following sample have been set up.
 
 - repository
 
-https://github.com/Myxogastria0808/coffee-sample.git
+[https://github.com/Myxogastria0808/coffee-sample.git](https://github.com/Myxogastria0808/coffee-sample.git)
 
 - demo site
 
-https://zola-coffee-theme-sample.netlify.app/
+[https://zola-coffee-theme-sample.netlify.app/](https://zola-coffee-theme-sample.netlify.app/)
 
 ## Post Example
 
@@ -303,17 +303,17 @@ Please refer to the following for an actual example.
 
 - markdown example
 
-https://github.com/Myxogastria0808/coffee/blob/main/content/sample/index.md
+[https://github.com/Myxogastria0808/coffee/blob/main/content/sample/index.md](https://github.com/Myxogastria0808/coffee/blob/main/content/sample/index.md)
 
 - preview URL
 
-https://zola-coffee-theme.netlify.app/sample/
+[https://zola-coffee-theme.netlify.app/sample/](https://zola-coffee-theme.netlify.app/sample/)
 
 ## coffee Theme Specific Notation
 
 ### List of languages in Code Block
 
-https://www.getzola.org/documentation/content/syntax-highlighting/
+[https://www.getzola.org/documentation/content/syntax-highlighting/](https://www.getzola.org/documentation/content/syntax-highlighting/)
 
 #### Example
 
@@ -339,11 +339,11 @@ You can see the image shortcode examples below.
 
 - markdown example
 
-https://github.com/Myxogastria0808/coffee/blob/main/content/sample/index.md
+[https://github.com/Myxogastria0808/coffee/blob/main/content/sample/index.md](https://github.com/Myxogastria0808/coffee/blob/main/content/sample/index.md)
 
 - preview URL
 
-https://zola-coffee-theme.netlify.app/sample/
+[https://zola-coffee-theme.netlify.app/sample/](https://zola-coffee-theme.netlify.app/sample/)
 
 #### Example applying all of `width`, `height`, and `caption`
 
@@ -532,10 +532,10 @@ The following is expressed in pseudo-HTML.
 
 ## References
 
-https://www.getzola.org/documentation/getting-started/overview/#content
+[https://www.getzola.org/documentation/getting-started/overview/#content](https://www.getzola.org/documentation/getting-started/overview/#content)
 
-https://swaits.com/adding-mermaid-js-to-zola/
+[https://swaits.com/adding-mermaid-js-to-zola/](https://swaits.com/adding-mermaid-js-to-zola/)
 
-https://sippo.work/blog/20231105-deploy-zola-with-cloudflare-pages/
+[https://sippo.work/blog/20231105-deploy-zola-with-cloudflare-pages/](https://sippo.work/blog/20231105-deploy-zola-with-cloudflare-pages/)
 
-https://zenn.dev/com4dc/scraps/c6c0f5fb87a1f9
+[https://zenn.dev/com4dc/scraps/c6c0f5fb87a1f9](https://zenn.dev/com4dc/scraps/c6c0f5fb87a1f9)
