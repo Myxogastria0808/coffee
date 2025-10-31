@@ -6,7 +6,7 @@ This theme can be used **mermaid** and **katex**.
 
 - demo site
 
-https://zola-coffee-theme.netlify.app/
+[https://zola-coffee-theme.netlify.app/](https://zola-coffee-theme.netlify.app/)
 
 - [theme logo](https://github.com/Myxogastria0808/coffee/blob/main/logo/README.md)
 
