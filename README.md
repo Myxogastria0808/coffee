@@ -297,7 +297,7 @@ My favorite way to drink coffee is to add caramel flavored sugar to black coffee
 
 I create a logo for my blog theme named "coffee".
 
-{{ image(path="/content/coffee/coffee.webp") }}
+{{ <image path="/content/coffee/coffee.webp" /> }}
 
 ```
 
@@ -332,12 +332,12 @@ fn main() {
 ### Image
 
 ```
-{{ image(path="/image/path") }}
+{{ <image path="/image/path" /> }}
 ```
 
-You can add `width=int`, `height=int`, and `caption=String` as options for image shortcode.
+You can add `width={int}`, `height={int}`, and `caption="String"` as options for the image component.
 
-You can see the image shortcode examples below.
+You can see the image component examples below.
 
 - markdown example
 
@@ -350,7 +350,7 @@ You can see the image shortcode examples below.
 #### Example applying all of `width`, `height`, and `caption`
 
 ```
-{{ image(path="/content/sample/image.jpg", width=1000, height=200, caption="caption") }}
+{{ <image path="/content/sample/image.jpg" width={1000} height={200} caption="caption" /> }}
 ```
 
 ![image](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/image.png)
@@ -379,21 +379,21 @@ $$
 ### mermaid
 
 ```
-{% mermaid() %}
+{% <mermaid> %}
 <mermaid's syntax expression>
-{% end %}
+{% </mermaid> %}
 ```
 
 #### Example
 
 ```
-{% mermaid() %}
+{% <mermaid> %}
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-{% end %}
+{% </mermaid> %}
 ```
 
 ![mermaid](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/mermaid.png)
@@ -401,17 +401,17 @@ graph TD;
 ### note
 
 ```
-{% note() %}
+{% <note> %}
 Contents of the note.
-{% end %}
+{% </note> %}
 ```
 
 #### Example
 
 ```
-{% note() %}
+{% <note> %}
 This is a note.
-{% end %}
+{% </note> %}
 ```
 
 ![note](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/note.png)
@@ -419,17 +419,17 @@ This is a note.
 ### tip
 
 ```
-{% tip() %}
+{% <tip> %}
 Contents of the tip.
-{% end %}
+{% </tip> %}
 ```
 
 #### Example
 
 ```
-{% tip() %}
+{% <tip> %}
 This is a tip.
-{% end %}
+{% </tip> %}
 ```
 
 ![tip](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/tip.png)
@@ -437,17 +437,17 @@ This is a tip.
 ### important
 
 ```
-{% important() %}
+{% <important> %}
 Contents of the important.
-{% end %}
+{% </important> %}
 ```
 
 #### Example
 
 ```
-{% important() %}
+{% <important> %}
 This is a important.
-{% end %}
+{% </important> %}
 ```
 
 ![important](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/important.png)
@@ -455,17 +455,17 @@ This is a important.
 ### warning
 
 ```
-{% warning() %}
+{% <warning> %}
 Contents of the warning.
-{% end %}
+{% </warning> %}
 ```
 
 #### Example
 
 ```
-{% warning() %}
+{% <warning> %}
 This is a warning.
-{% end %}
+{% </warning> %}
 ```
 
 ![warning](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/warning.png)
@@ -473,17 +473,17 @@ This is a warning.
 ### caution
 
 ```
-{% caution() %}
+{% <caution> %}
 Contents of the caution
-{% end %}
+{% </caution> %}
 ```
 
 #### Example
 
 ```
-{% caution() %}
+{% <caution> %}
 This is a caution.
-{% end %}
+{% </caution> %}
 ```
 
 ![caution](https://raw.githubusercontent.com/Myxogastria0808/coffee/refs/heads/main/assets/caution.png)
